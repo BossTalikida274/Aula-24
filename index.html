@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 24</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <div class="logo">SportMax</div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#produtos">Produtos</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <section class="apresentacao" id="inicio">
+        <div class="texto">
+            <h1>Supere seus limites</h1>
+            <p>Equipamentos e roupas</p>
+            <button>Ver Produtos</button>
+        </div>
+        <div class="imagem">
+            <img src="David Goggins.jpg" alt="David goggins com seu lema atrás">
+        </div>
+    </section>
+    <section class="produtos" id="produtos">
+        <h2>Produtos em destaque</h2>
+        <div class="cards">
+            <div class="card">
+                <img class="icone" src="Tênis.webp" alt="">
+                <h3>Tênis Esportivo</h3>
+                <p>R$499,99</p>
+                <button>Saiba mais</button>
+            </div>
+            <div class="card">
+                <img class="icone" src="Camisa.webp" alt="">
+                <h3>Camisa Esportiva</h3>
+                <p>R$149,99</p>
+                <button>Saiba mais</button>
+            </div>
+            <div class="card">
+                <img class="icone" src="Bola.webp" alt="">
+                <h3>Bola de Basquete</h3>
+                <p>R$129,99</p>
+                <button>Saiba mais</button>
+            </div>
+        </div>
+    </section>
+    <section class="galeria" id="galeria">
+        <h2>Esporte é movimento</h2>
+        <div class="grid-galeria">
+            <img src="Max Verstappen.jpg" alt="">
+            <img src="Ronnie Coleman.webp" alt="">
+            <img src="Under Both Dunk.jpg" alt="">
+        </div>
+    </section>
+    <section class="contato" id="contato">
+        <form class="form-contato">
+            <div class="campo">
+                <label>Nome</label>
+                <input type="text" placeholder="Nome" required>
+            </div>
+            <div class="campo">
+                <label>Email</label>
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div class="campo">
+                <label>Mensagem</label>
+                <textarea name="Mensagem" rows="5" placeholder="DIgite aqui..."></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
